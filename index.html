@@ -14,10 +14,10 @@
   <h2>Main Navigation</h2>
     <nav>
       <ul>
-        <li>Destinations</li>
-        <li>Inspirations</li>
-        <li>Special</li>
-        <li>Contact Us</li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#inspirations">Inspirations</a></li>
+        <li><a href="#special">Special</a></li>
+        <li><a href="#contact">Contact Us</a></li>
     </ul>
     </nav>
 </header>
@@ -30,7 +30,7 @@
   majorca-beach.png
   majorca-cove.png
 </section>
-<section>
+<section id="destinations">
   <h2>Plan Your Trip</h2>
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
   <h3>How to Get there</h3>
@@ -86,7 +86,7 @@
   </svg>
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 </section>
-<section>
+<section id="inspirations">
   <h2>Testimonials</h2>
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
     <h3>Miranda Blake</h3>
@@ -111,7 +111,7 @@
     <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 </section>
-<section>
+<section id="special">
   <h2>About Your Destination</h2>
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
   <h3>Size</h3>
@@ -156,50 +156,49 @@
   <p>Population: 923,608</p>
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 </section>
-
-<h2>Contact Us</h2>
-<form>
-  <label for="first-name">First Name</label>
-  <input type="text" name="first-name">
-  <label for="last-name">Last Name</label>
-  <input type="text" name="last-name">
-  <legend>Contact Method</legend>
-    <fieldset id="contact">
-      <input type="radio" value="Email">
-      <label for="Email">Email</label>
-      <input type="radio" value="Text">
-      <label for="Text">Text</label>
-      <input type="radio" value="Phone">
-      <label for="Phone">Phone</label>
-      <label for="my-email">Email Address</label>
-      <input type="text" name="my-email">
-      <label for="my-phone">Phone Number</label>
-      <input type="text" name="my-phone">
-    </fieldset>
-    <fieldset id="destination">
-    <label for="destination">Destination</label>
-    <select name="destination" placeholder="Choose your destination">
-      <option value="choose your destination">Barcelona</option>
-      <option value="choose your destination">Granada</option>
-      <option value="choose your destination">Ibiza</option>
-      <option value="choose your destination">Madrid</option>
-      <option value="choose your destination">Majorca</option>
-      <option value="choose your destination">Seville</option>
-      <option value="choose your destination">Tenerife</option>
-      <option value="choose your destination">Valencia</option>
-      </select>
-      <label for="Travel time">Travel Time</label>
-    <select name="Travel time" placeholder="Choose your travel time">
-      <option value="Travel time">Fall</option>
-      <option value="Travel time">Winter</option>
-      <option value="Travel time">Spring</option>
-      <option value="Travel time">Summer</option>
-      <option value="Travel time">Flexible</option>
-      </select>
-    </fieldset>
-
-</form>
-
+<section id="contact">
+  <h2>Contact Us</h2>
+    <form>
+      <label for="first-name">First Name</label>
+      <input type="text" name="first-name">
+      <label for="last-name">Last Name</label>
+      <input type="text" name="last-name">
+      <legend>Contact Method</legend>
+        <fieldset id="contact">
+          <input type="radio" value="Email">
+          <label for="Email">Email</label>
+          <input type="radio" value="Text">
+          <label for="Text">Text</label>
+          <input type="radio" value="Phone">
+          <label for="Phone">Phone</label>
+          <label for="my-email">Email Address</label>
+          <input type="text" name="my-email">
+          <label for="my-phone">Phone Number</label>
+          <input type="text" name="my-phone">
+        </fieldset>
+        <fieldset id="destination">
+        <label for="destination">Destination</label>
+        <select name="destination" placeholder="Choose your destination">
+          <option value="choose your destination">Barcelona</option>
+          <option value="choose your destination">Granada</option>
+          <option value="choose your destination">Ibiza</option>
+          <option value="choose your destination">Madrid</option>
+          <option value="choose your destination">Majorca</option>
+          <option value="choose your destination">Seville</option>
+          <option value="choose your destination">Tenerife</option>
+          <option value="choose your destination">Valencia</option>
+          </select>
+          <label for="Travel time">Travel Time</label>
+        <select name="Travel time" placeholder="Choose your travel time">
+          <option value="Travel time">Fall</option>
+          <option value="Travel time">Winter</option>
+          <option value="Travel time">Spring</option>
+          <option value="Travel time">Summer</option>
+          <option value="Travel time">Flexible</option>
+          </select>
+        </fieldset>
+    </form>
+</section>
 </body>
 <footer>
 <small><p>&copy; 2021 Wunderlust</p></small>
