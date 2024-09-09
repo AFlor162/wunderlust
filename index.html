@@ -9,7 +9,12 @@
 </head>
 <header>
   <h1>Wunderlust Travel</h1>
-  logo.png
+  <picture>
+    <source media="(min-width: 1024w)" src="Images\logo-L.png"/>
+    <source media="(max-width: 780w)" src="Images\logo-M.png"/>
+    <source media="(max-width: 320w)" src="Images\logo-S.png"/>
+    <img src="Images\logo-S.png" alt="wunderlust logo"/>
+  </picture>
     <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
   <h2>Main Navigation</h2>
     <nav>
@@ -172,9 +177,9 @@
           <input type="radio" value="Phone">
           <label for="Phone">Phone</label>
           <label for="my-email">Email Address</label>
-          <input type="text" name="my-email">
+          <input type="email" name="my-email">
           <label for="my-phone">Phone Number</label>
-          <input type="text" name="my-phone">
+          <input type="tel" name="my-phone">
         </fieldset>
         <fieldset id="destinationinfo">
           <legend>Destination Information</legend>
