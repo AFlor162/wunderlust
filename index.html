@@ -199,21 +199,21 @@
     <h2>Contact Us</h2>
       <form>
         <label for="first-name">First Name</label>
-        <input type="text" name="first-name">
+        <input type="text" name="first-name" autocomplete="first-name">
         <label for="last-name">Last Name</label>
-        <input type="text" name="last-name">
+        <input type="text" name="last-name" autocomplete="surname">
           <fieldset id="contact">
             <legend>Contact Method</legend>
-            <input type="radio" value="Email">
+            <input type="radio" value="Email" id="email">
             <label for="Email">Email</label>
-            <input type="radio" value="Text">
+            <input type="radio" value="Text" id="text">
             <label for="Text">Text</label>
-            <input type="radio" value="Phone">
+            <input type="radio" value="Phone" id="phone">
             <label for="Phone">Phone</label>
             <label for="my-email">Email Address</label>
-            <input type="email" name="my-email">
+            <input type="email" name="my-email" autocomplete="your-email">
             <label for="my-phone">Phone Number</label>
-            <input type="tel" name="my-phone">
+            <input type="tel" name="my-phone" autocomplete="your-phone">
           </fieldset>
           <fieldset id="destinationinfo">
             <legend>Destination Information</legend>
