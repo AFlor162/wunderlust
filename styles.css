@@ -81,33 +81,13 @@ table {
 	font-style:italic;
 }
 
-h1 {
-	font-family: "Molle", system-ui;
+html{
+	background-color: var(white);
 }
-h2{
-	font-family: "Molle", system-ui;
+
+h1,h2,h3{
+	font-family: "Molle", sans-serif;
 }
-h3{
-	font-family: "Molle", system-ui;
-}
-h4{
-	font-family: "Montserrat", system-ui;
-}
-p{
-	font-family: "Montserrat", system-ui;
-}
-q{
-	font-family: "Montserrat", system-ui;
-}
-small{
-	font-family: "Montserrat", system-ui;
-}
-nav{
-	font-family: "Montserrat", system-ui;
-}
-button{
-	font-family: "Montserrat", system-ui;
-}
-form{
-	font-family: "Montserrat", system-ui;
+h4,p,q,small,nav,button,form{
+	font-family: "Montserrat", sans-serif;
 }
