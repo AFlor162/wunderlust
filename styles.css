@@ -92,6 +92,17 @@ h4,p,q,small,nav,button,form{
 	font-family: "Montserrat", sans-serif;
 }
 
+.skip{
+	text-decoration:none;
+	position:absolute;
+	background: #9DC183;
+	color:#000;
+	transform: translateY(-300%);
+  }
+  .skip:focus{
+	transform: translateY(0%);
+  }
+
 @media only screen and (max-width: 595px) {
 
 
