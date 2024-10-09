@@ -82,7 +82,7 @@ table {
 }
 
 html{
-	background-color: var(white);
+	background-color: linear-gradient(var(--teal),var(--white));
 }
 
 h1,h2,h3{
@@ -109,7 +109,43 @@ header {
 	background-color: var(--teal);
 }
 
-
-
+header img{
+	padding-bottom:5%;
 	
+}
+
+header nav{
+	background-color: var(--white);
+	color:var(--black);
+	display:none;
+}
+
+header label{
+	display:block;
+	background-color: var(--yellow);
+	padding:1em;
+	color:var(--black);
+	position:relative;
+}
+
+nav h2{
+	display:none;
+}
+
+h1{
+	font-size:3em;
+	padding-left:10%;
+}
+
+header p{
+	font-size:1.5em;
+	margin-left:10%;
+	margin-right:10%;
+	padding-bottom:5%;
+}
+
+#intro h2{
+	font-size:3em;
+	padding-left:10%;
+}
 }
