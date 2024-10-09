@@ -92,14 +92,14 @@ h4,p,q,small,nav,button,form{
 	font-family: "Montserrat", sans-serif;
 }
 
-.skip{
+#skip{
 	text-decoration:none;
 	position:absolute;
 	background: #9DC183;
 	color:#000;
-	transform: translateY(-300%);
+	transform: translateY(-1000%);
   }
-  .skip:focus{
+ #skip:focus{
 	transform: translateY(0%);
   }
 
