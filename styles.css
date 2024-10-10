@@ -121,6 +121,287 @@ header img{
 header nav{
 	background-color: var(--white);
 	color:var(--black);
+	visibility: hidden;
+}
+
+header label{
+	display:block;
+	background-color: var(--yellow);
+	padding:1em;
+	color:var(--black);
+	position:relative;
+}
+
+nav h2{
+	display:none;
+}
+
+h1{
+	font-size:3em;
+	padding-left:10%;
+	padding-bottom:2.5%;
+}
+
+header p{
+	font-size:1.5em;
+	margin-left:10%;
+	margin-right:10%;
+	padding-bottom:5%;
+}
+
+#intro h2{
+	font-size:3em;
+	padding-left:10%;
+	padding-bottom:2.5%;
+}
+
+#intro p{
+	font-size:1.5em;
+	margin-left:10%;
+	margin-right:10%;
+	padding-bottom:5%;
+}
+
+#img-grid{
+	display:grid;
+	grid-row-gap:2.5%;
+	margin:auto;
+	padding-bottom:15%;
+}
+
+#intro img{
+	width:100%;
+	height:100%;
+}
+
+#plan{
+	background-color: var(--yellow);
+	display:grid;
+	grid-row-gap:2.5%;
+	margin:auto;
+	padding-bottom:15%;
+
+}
+
+#plan h3{
+	font-size:3em;
+	padding-top:10%;
+	padding-left:10%;
+	padding-bottom:2.5%;
+}
+
+#plan h4{
+	font-size:2em;
+	font-weight: bold;
+}
+
+#plan img{
+	display: block;
+	background-color: var(--teal);
+	padding:20%;
+	margin:auto;
+	border: var(--white) solid 5px;
+	border-radius: 10px;
+	width:50%;
+	height:50%;
+}
+
+#testimonials{
+	background-color: var(--white);
+	display:grid;
+	grid-row-gap:2.5%;
+	margin:auto;
+	padding-bottom:15%;
+
+}
+#testimonials section{
+	display:grid;
+	margin:5%;
+}
+
+#testimonials h3{
+	font-size:3em;
+	padding-top:10%;
+	padding-left:10%;
+	padding-bottom:2.5%;
+}
+
+#testimonials h4{
+	font-size:2em;
+	font-weight: bold;
+	margin:auto;
+	text-align:center;
+	text-wrap:balance;
+
+}
+
+#testimonials img{
+	display: block;
+	margin:auto;
+}
+
+#testimonials p{
+	font-size:1.5em;
+	margin:auto;
+	text-align: center;
+}
+#testimonials q{
+	font-size:1.5em;
+	font-style:italic;
+	text-align: center;
+	text-wrap: balance;
+}
+
+#about {
+	background-color: #499BD2;
+	padding:5%;
+}
+
+#about h3{
+	font-size:3em;
+	padding-top:10%;
+	padding-left:10%;
+	padding-bottom:2.5%;
+
+}
+
+#about div{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin:10%;  
+}
+
+#about section{
+	display:grid;
+	text-align:center;
+}
+
+#about h4{
+	font-size:2em;
+	font-weight: bold;
+	margin:auto;
+	text-align:center;
+	text-wrap:balance;
+
+}
+#about p{
+	font-size:1.5em;
+	margin:auto;
+	text-align: center;
+	padding:5%;
+}
+
+#about img{
+	padding:5%;
+}
+
+#contact{
+	width:100%;
+	margin:auto;
+}
+
+#contact h3{
+	font-size:3em;
+	padding-top:10%;
+	padding-left:10%;
+	padding-bottom:2.5%;
+
+}
+
+form{
+	display:block;
+	margin:0 auto;
+	padding-left:5%;
+
+}
+
+form label{
+	display:block;
+	font-size:2em;
+	padding-left:5%;
+}
+
+form input[type=text]{
+	border: #9B26B0 solid 5px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right:50%;
+	margin:5%;
+}
+
+form input[type=email]{
+	border: #9B26B0 solid 5px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right:50%;
+	margin:5%;
+}
+form input[type=tel]{
+	border: #9B26B0 solid 5px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right:50%;
+	margin:5%;
+}
+
+form input[type=submit]{
+	display:block;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right:50%;
+	margin:5%;
+	color:#fff;
+	background-color: #9B26B0;
+	text-align: center;
+	font-weight:bold;
+	
+}
+
+form fieldset{
+	display:inline-block;
+	font-size:1.5em;
+	padding:5%;
+}
+
+legend{
+	font-size:1em;
+	font-weight:bold;
+	padding-left:5%;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	padding:15%;
+	background-color: var(--light-grey);
+}
+
+footer p {
+	padding:5%;
+}
+
+footer a{
+	text-decoration: none;
+	color:#000;
+	padding-top:5%;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width:888px) {
+	
+
+
+
+
+header img{
+	padding-bottom:5%;
+	
+}
+
+header nav{
+	background-color: var(--white);
+	color:var(--black);
 	display:none;
 }
 
@@ -387,4 +668,83 @@ footer a{
 	padding-top:5%;
 }
 
+
 }
+
+@media only screen and (min-width: 889px) {
+
+html{
+	width:100%;
+	margin:auto;
+}
+
+
+header nav {
+	visibility: visible;
+	padding:10%;
+}
+
+header nav li{
+	display:inline;
+	background-color: #fff;
+	margin:3%;
+	padding:3%;
+}
+
+nav a {
+	text-align: center;
+	text-decoration: none;
+	color:#000;
+	font-weight:bold;
+}
+
+nav h2{
+	display:none;
+}
+
+nav label{
+	display:none;
+}
+
+nav input{
+	display:none;
+}
+
+header h1{
+	padding:5%;
+	font-size: 3em;
+	position:absolute;
+	top:-1%;
+	right:35%
+}
+
+header p{
+	padding:5%;
+	position:absolute;
+	padding-right:10%;
+	top:6%;
+	font-size: 2em;
+}
+
+#intro h2{
+	font-size: 2.5em;
+	padding-left:10%;
+	padding-bottom:1%;
+}
+
+#intro p{
+	font-size:1.5em;
+	padding-left:10%;
+	padding-bottom:5%;
+
+}
+
+#img-grid{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+
+}
+
