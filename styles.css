@@ -745,6 +745,92 @@ header p{
 	grid-template-rows: repeat(2, 1fr);
 }
 
+#plan {
+	background-color: var(--yellow);
+}
+
+#plan h3{
+	font-size:3em;
+	padding-top: 10%;
+	padding-left:10%;
+
+}
+
+#plan h4{
+	font-size:2em;
+	font-weight: bold;
+}
+
+#plan div{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin:10%; 
+}
+
+#plan img{
+	display: block;
+	background-color: var(--teal);
+	padding:20%;
+	margin:auto;
+	border: var(--white) solid 5px;
+	border-radius: 10px;
+	width:50%;
+	height:50%;
+
+}
+
+#testimonials div{
+
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin:10%; 
+
+}
+
+#testimonials h3{
+		font-size:2em;
+		padding-top:5%;
+		padding-left:5%;
+	
+
+}
+
+#about{
+	background-color: #499BD2;
+	color:#000;
+	font-weight: bold;
+}
+
+#about div{
+
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	margin:5%; 
+	padding:5%;
+	grid-column-gap: 2%;
+}
+
+#about section{
+	display:grid;
+	margin:5%;
+	text-align: center;
+	padding:2%;
+}
+
+#about h4{
+	padding:2%;
+}
+
+#about h3{
+	font-size:2em;
+	padding-top:5%;
+	padding-left:5%;
+
+}
+
 
 }
 
